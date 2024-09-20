@@ -1,0 +1,63 @@
+{
+    "name": "douglasgreen/game-engine",
+    "description": "A PHP engine for developing text games",
+    "type": "project",
+    "keywords": [
+        "adventure game",
+        "php",
+        "text adventure"
+    ],
+    "homepage": "https://github.com/douglasgreen/game-engine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Douglas Green",
+            "email": "douglas@nurd.site",
+            "homepage": "https://nurd.site/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "douglasgreen/utility": "^0.5",
+        "douglasgreen/opt-parser": "^0.5"
+    },
+    "require-dev": {
+        "douglasgreen/config-setup": "dev-main",
+        "phpstan/phpstan": "^1.11",
+        "phpunit/phpunit": "^10.5",
+        "rector/rector": "^1.2",
+        "symplify/easy-coding-standard": "^12.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DouglasGreen\\GameEngine\\": "src/",
+            "DouglasGreen\\GameEngine\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/douglasgreen/config-setup"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "lint": [
+            "ecs",
+            "phpstan analyse",
+            "rector --dry-run"
+        ],
+        "lint:fix": [
+            "ecs --fix",
+            "rector"
+        ],
+        "post-install-cmd": "config-setup",
+        "post-update-cmd": "config-setup",
+        "test": "phpunit"
+    }
+}
