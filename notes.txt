@@ -1,0 +1,23 @@
+## Attributes
+
+Attributes are on a scale of 1 to 20, where 1 is human norm. Each level +1 is *2. Each level -1 is /2.
+
+So 20 is 1000 times human norm and 0 is 1/1000 human norm.
+
+### Ten Attributes
+* Strength (STR)
+* Dexterity (DEX) - agility in doing things
+* Constitution/Health (CON) - affects HP
+* Intelligence (INT)
+* Wisdom (WIS) - affects healing ability
+* Charisma (CHA) - persuasiveness
+* Perception/Sense (PER) - keen senses
+* Psychic/Force (PSI) - mental ability
+* Magic (MAG) - magic spells with formulas and incantations
+* Speed (VEL) - speed in running/swimming/flying
+
+### Four Scores
+* Health (HP) - resistance to injury
+* Mana (MP) - use of PSI/MAG
+* Sanity/Willpower (WP) - resistance to shock, affected by WIS
+* Endurance (EP) - affects STR/DEX
