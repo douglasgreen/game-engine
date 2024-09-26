@@ -24,3 +24,16 @@ So 20 is 1000 times human norm and 0 is 1/1000 human norm.
 
 ### Other
 * Toughness (TGH) - passive resistance to damage
+* Size (SIZ) - height/weight
+
+### Body parts
+* Arm count
+* Hand count
+* Leg count
+* Foot count
+* Head count
+* Tail count
+
+### Contest
+The odds of a contest are the square of the ratio. If A is twice as strong as B, B has a 1/4
+chance of winning a contest of strength. If A is 4 times as strong, B's chance is 1/16.
