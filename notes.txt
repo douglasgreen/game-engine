@@ -21,3 +21,6 @@ So 20 is 1000 times human norm and 0 is 1/1000 human norm.
 * Mana (MP) - use of PSI/MAG
 * Sanity/Willpower (WP) - resistance to shock, affected by WIS
 * Endurance (EP) - affects STR/DEX
+
+### Other
+* Toughness (TGH) - passive resistance to damage
